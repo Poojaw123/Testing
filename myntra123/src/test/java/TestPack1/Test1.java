@@ -26,22 +26,22 @@ public class Test1
 	ProductTest product;
 	String str ;
 	
-	@Parameters("browser")
-	@BeforeTest
-	public void launchBrowser(String browserName)
-	{
-		System.out.println(browserName);
-		if(browserName.equals("chrome"))
-		{
-			driver=Base.openChromeBrowser();
-		}
-		 if(browserName.equals("Firefox"))
-		{
-			driver=Base.openFirefoxBrowser();
-		}
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-		driver.get("https://www.demoblaze.com/");
-	}
+// 	@Parameters("browser")
+// 	@BeforeTest
+// 	public void launchBrowser(String browserName)
+// 	{
+// 		System.out.println(browserName);
+// 		if(browserName.equals("chrome"))
+// 		{
+// 			driver=Base.openChromeBrowser();
+// 		}
+// 		 if(browserName.equals("Firefox"))
+// 		{
+// 			driver=Base.openFirefoxBrowser();
+// 		}
+// 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+// 		driver.get("https://www.demoblaze.com/");
+// 	}
 	
 	@BeforeClass
 	public void createPomObject()
