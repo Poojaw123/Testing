@@ -8,15 +8,15 @@ import org.openqa.selenium.support.PageFactory;
 public class Header 
 {
 	
-	@FindBy (xpath="//a[text()='Phones']")
-	private WebElement phones;
-	
-	@FindBy (xpath="//a[text()='Laptops']")
-	private WebElement laptop;
-	
-	@FindBy (xpath="//a[text()='Monitors']")
-	private WebElement monitor;
-	
+//	@FindBy (xpath="//a[text()='Phones']")
+//	private WebElement phones;
+//	
+//	@FindBy (xpath="//a[text()='Laptops']")
+//	private WebElement laptop;
+//	
+//	@FindBy (xpath="//a[text()='Monitors']")
+//	private WebElement monitor;
+//	
 	public Header(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);
