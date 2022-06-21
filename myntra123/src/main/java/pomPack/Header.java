@@ -17,15 +17,15 @@ public class Header
 //	@FindBy (xpath="//a[text()='Monitors']")
 //	private WebElement monitor;
 //	
-	public Header(WebDriver driver)
-	{
-		PageFactory.initElements(driver,this);
-	}
-	public void clickOnPhone()
-	{
-		phones.click();
-	}
-	public void clickOnLaptop()
+//	public Header(WebDriver driver)
+//	{
+//		PageFactory.initElements(driver,this);
+//	}
+//	public void clickOnPhone()
+//	{
+//		phones.click();
+//	}
+//	public void clickOnLaptop()
 	{
 		laptop.click();
 	}
