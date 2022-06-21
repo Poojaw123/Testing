@@ -34,16 +34,16 @@ public class LogIn
 	{
 		user.sendKeys("8446078595");
 	}
-	public void sendPassword()
-	{
-		password.sendKeys("18@swami");
-	}
-	public void enter()
-	{
-		log.click();
-	}
-	public void clickOnLogout()
-	{
-		logOut.click(); 
-	}
+// 	public void sendPassword()
+// 	{
+// 		password.sendKeys("18@swami");
+// 	}
+// 	public void enter()
+// 	{
+// 		log.click();
+// 	}
+// 	public void clickOnLogout()
+// 	{
+// 		logOut.click(); 
+// 	}
 }
