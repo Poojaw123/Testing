@@ -16,24 +16,24 @@ public class ProductTest {
 	@FindBy (xpath="//a[text()='ASUS Full HD']")
 	private WebElement monit;
 	
-	public ProductTest(WebDriver driver)
-	{
-		PageFactory.initElements(driver,this);
-	}
-	public String getTextMobile()
-	{
-		return mobile.getText();
-		
-	}
-	public String getTextLapy()
-	{
-		return lapy.getText();
-		 
-	}
-	public String getTextMonit()
-	{
-		 return monit.getText();
-	}
+//	public ProductTest(WebDriver driver)
+//	{
+//		PageFactory.initElements(driver,this);
+//	}
+//	public String getTextMobile()
+//	{
+//		return mobile.getText();
+//		
+//	}
+//	public String getTextLapy()
+//	{
+//		return lapy.getText();
+//		 
+//	}
+//	public String getTextMonit()
+//	{
+//		 return monit.getText();
+//	}
 	
 	
 }
